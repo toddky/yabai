@@ -51,11 +51,14 @@ yabai -m config normal_window_border_color   0xff555555
 
 # Spacing
 yabai -m config layout                       bsp
-yabai -m config top_padding                  06
-yabai -m config bottom_padding               06
-yabai -m config left_padding                 06
-yabai -m config right_padding                06
-yabai -m config window_gap                   06
+yabai -m config top_padding                  3
+yabai -m config bottom_padding               3
+yabai -m config left_padding                 3
+yabai -m config right_padding                3
+yabai -m config window_gap                   3
+
+# Sketchybar
+yabai -m config external_bar                 all:32:0
 
 echo 'Loaded yabairc'
 
